@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Card from "./Card";
 import Input from "./input";
-const Task = () => {
+const task = () => {
     
       const initial_task = [
     
@@ -67,4 +67,4 @@ const Task = () => {
     )
 }
 
-export default Task;
+export default task;

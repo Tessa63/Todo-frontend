@@ -1,4 +1,4 @@
-import Input from './components/input';
+import Input from './components/Input';
 import Card from './components/Card';
 import Tasks from './components/Tasks';
 import './App.css'

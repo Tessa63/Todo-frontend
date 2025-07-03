@@ -1,4 +1,4 @@
-const Card = (props) =>{
+const card = (props) =>{
   const handleComplete = () => {
     props.onDeleteTask(props.task.task_id)
   }
@@ -10,5 +10,5 @@ const Card = (props) =>{
               </div>
         )
 }
-export default Card;
+export default card;
 
