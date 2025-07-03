@@ -1,4 +1,4 @@
-import Tasks from './components/Tasks';
+import Tasks from './components/tasks';
 import './App.css'
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import About from './components/about';
