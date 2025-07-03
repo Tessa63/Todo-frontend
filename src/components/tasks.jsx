@@ -14,7 +14,7 @@ const task = () => {
       task_name:newTask
     };
 
-    const response =await fetch ("https://todo-backend-gkte.onrender.com",{
+    const response =await fetch ("https://todo-backend-gkte.onrender.com/create",{
       method:"POST",
       headers:{
         "Content-Type":"application/json"
@@ -30,7 +30,7 @@ const task = () => {
     }
   }
   const deleteTaskHandler =async (taskId) => {
-    const response= await fetch("https://todo-backend-gkte.onrender.com"+taskId,{
+    const response= await fetch("https://todo-backend-gkte.onrender.com/"+taskId,{
       method:"DELETE"
     })
     if(response.status == 200){
